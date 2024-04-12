@@ -2,38 +2,102 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What kind of data structure does uniform cost search use?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Stack",
+        "b": "Linked List",
+        "c": "Priority Queue",
+        "d": "Hash Table"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "Nodes are expanded in order of their cost (g values), so a priority queue is used to store the nodes.",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Is uniform cost search an informed or uninformed search algorithm?",
+      "answers": {
+        "a": "Informed",
+        "b": "Uninformed"
+      },
+      "explanations": {
+        "a": "",
+        "b": "Uniform cost search is an uninformed search algorithm because it does not use any information about the problem domain to guide the search."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "When does uniform cost search terminate?",
+      "answers": {
+        "a": "When the goal node is generated.",
+        "b": "When the goal node is selected for expansion.",
+        "c": "When the frontier is empty.",
+        "d": "Both b and c."
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "Uniform cost search terminates when the goal node is selected for expansion, or when the frontier is empty. Check the algorithm section in the theory for more details."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Consider a navigation system where UCS is used to find the shortest path between two locations. The graph representing the road network has varying edge costs corresponding to the distance between intersections. What advantage does UCS offer in this scenario compared to other search algorithms?",
+      "answers": {
+        "a": "UCS guarantees finding the shortest path regardless of edge costs.",
+        "b": "UCS efficiently explores paths based on their cumulative costs, ensuring the shortest path is found first.",
+        "c": "UCS always selects the path with the lowest number of steps, leading to shorter travel times.",
+        "d": "UCS prioritizes paths with the lowest heuristic values, resulting in faster navigation."
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is true about uniform cost search?",
+      "answers": {
+        "a": "It is always complete.",
+        "b": "It is always optimal.",
+        "c": "It is never complete nor optimal.",
+        "d": "If the path costs are positive, it is complete and optimal."
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "Check Reference 1 for the proof."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "When is uniform cost search inefficient?",
+      "answers": {
+        "a": "When the edge costs are not all the same",
+        "b": "When the edge costs are all the same",
+        "c": "When the cost of the optimal solution is low",
+        "d": "When the cost of the optimal solution is high"
+      },
+      "explanations": {
+        "a": "",
+        "b": "If all the edge costs are the same, then other algorithms like breadth first search perform better than uniform cost search. Check time and space complexity section in the theory section",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }

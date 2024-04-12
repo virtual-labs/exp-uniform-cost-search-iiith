@@ -1,1 +1,1 @@
-## Experiment name
+## Uniform Cost Search

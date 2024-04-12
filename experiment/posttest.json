@@ -2,38 +2,82 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What happens if UCS does not keep track of visited nodes?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It will always find the optimal solution",
+        "b": "It may revisit nodes and potentially enter into an infinite loop.",
+        "c": "It will only explore nodes with the highest cost.",
+        "d": "It will have a time complexity of O(b^d)."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "Let two node A and B have the shortest edge cost. Then UCS will keep visiting A and B from each other and this will result in an infinite loop.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Assuming that all the edge costs are equal, what will be the time complexity of UCS?",
+      "answers": {
+        "a": "O(b^(d+1))",
+        "b": "O(b^d)",
+        "c": "O(b^d + 1)",
+        "d": "O(bd)"
+      },
+      "explanations": {
+        "a": "Check space and time complexity section of theory",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In this implementation of the algorithm, can there be multiple path cost values for the same node in the frontier?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "yes",
+        "b": "no"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Try to construct an example in the practice mode where this is true.",
+        "b": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+
+    {
+      "question": "Let's say that node n is in the frontier with value v. Is v guaranteed to be the shortest path from the start node to n?",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "explanations": {
+        "a": "Another path could be found with a smaller v value than the one in the frontier.",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Consider the following graph. A -> B (cost 1), A -> C (cost 2), B -> D (cost 3), C -> D (cost 1). What is the path that UCS will return?",
+      "answers": {
+        "a": "A -> B -> D",
+        "b": "A -> B -> C -> D",
+        "c": "A -> C -> B -> D",
+        "d": "A -> C -> D"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "The paths will be A->B, A->C, A->C->D"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
     }
   ]
 }
