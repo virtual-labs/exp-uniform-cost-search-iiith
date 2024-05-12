@@ -2,6 +2,19 @@
   "version": 2.0,
   "questions": [
     {
+      "question": "In this implementation of the algorithm, can there be multiple path cost values for the same node in the frontier?",
+      "answers": {
+        "a": "yes",
+        "b": "no"
+      },
+      "explanations": {
+        "a": "It is possible for the same node to be reached by multiple paths, each with a different path cost. Since we are not replacing nodes with lower path costs, but adding them to the frontier, there can be multiple path cost values for the same node.",
+        "b": "Since we are not replacing nodes with lower path costs, but adding them to the frontier, there can be multiple path cost values for the same node."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
       "question": "What happens if UCS does not keep track of visited nodes?",
       "answers": {
         "a": "It will always find the optimal solution",
@@ -10,13 +23,26 @@
         "d": "It will have a time complexity of O(b^d)."
       },
       "explanations": {
-        "a": "",
+        "a": "Let two node A and B have the shortest edge cost. Then UCS will keep visiting A and B from each other and will not find the optimal solution.",
         "b": "Let two node A and B have the shortest edge cost. Then UCS will keep visiting A and B from each other and this will result in an infinite loop.",
-        "c": "",
-        "d": ""
+        "c": "UCS will still explore based on lowest path cost.",
+        "d": "Whether or not UCS keeps track of visited nodes doesn't directly determine its time complexity."
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Let's say that node n is in the frontier with value v. Is v guaranteed to be the shortest path from the start node to n?",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "explanations": {
+        "a": "Another path could be found with a smaller v value than the one in the frontier.",
+        "b": "Another path could be found with a smaller v value than the one in the frontier."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
       "question": "Assuming that all the edge costs are equal, what will be the time complexity of UCS?",
@@ -28,38 +54,11 @@
       },
       "explanations": {
         "a": "Check space and time complexity section of theory",
-        "b": "",
-        "c": "",
-        "d": ""
+        "b": "Check space and time complexity section of theory",
+        "c": "Check space and time complexity section of theory",
+        "d": "Check space and time complexity section of theory"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "In this implementation of the algorithm, can there be multiple path cost values for the same node in the frontier?",
-      "answers": {
-        "a": "yes",
-        "b": "no"
-      },
-      "explanations": {
-        "a": "Try to construct an example in the practice mode where this is true.",
-        "b": ""
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
-    },
-
-    {
-      "question": "Let's say that node n is in the frontier with value v. Is v guaranteed to be the shortest path from the start node to n?",
-      "answers": {
-        "a": "Yes",
-        "b": "No"
-      },
-      "explanations": {
-        "a": "Another path could be found with a smaller v value than the one in the frontier.",
-        "b": ""
-      },
-      "correctAnswer": "b",
       "difficulty": "advanced"
     },
     {
