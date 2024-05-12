@@ -6,9 +6,9 @@ Uniform Cost Search (UCS) is an uninformed search algorithm for traversing a gra
 
 The UCS Search algorithm is a pathfinding algorithm used to find the shortest path from a start node to a goal node in a graph with edge weights, taking into account the actual cost from the start node to the node. The cost function g(n) gives the actual cost to reach node n from the start node and is what the priority queue is ordered by.
 
-STEP 1: Initialize the frontier (priority queue) with the start node 'start' and set g value to 0.
+STEP 1: Initialize the frontier (priority queue) with the start node 'start' and set g and f values to 0 and h(start) respectively.
 
-STEP 2: While the frontier is not empty, select the node with the lowest g value.
+STEP 2: While the frontier is not empty, select the node with the lowest f value.
 
 STEP 3: If the selected node is the goal node, reconstruct and return the path from the start node to the goal node.
 
@@ -16,7 +16,7 @@ STEP 4: If the selected node is not the goal node, expand the selected node by e
 
 STEP 5: For each neighbor, calculate the tentative g value and update it if it is lower than the current g value.
 
-STEP 6: Add the neighbouring nodes to the frontier if the g value is updated or if they are not already in the frontier.
+STEP 6: Calculate the f value for each neighbor if its g value is updated and add them to the frontier if they are not already in the frontier.
 
 STEP 7: Repeat steps 2-6 until the goal node is reached or the frontier is empty.
 
@@ -34,7 +34,7 @@ is selected for expansion and the solution is returned.
 
 ## Optimality and Completeness
 **Optimality:**
-UCS is optimal. Whenever UCS selects a node n for expansion, the optimal path to that node has been found. If there exists a better path to node n, it must have passed through some other frontier node n' before reaching node n. By definition, node n' would have lower g-cost than n and would have been selected first. Therefore, if UCS selects n for expansion, it has evaluated and discarded any potential paths to n that are not optimal. 
+UCS is optimal for non-negative edge costs. Whenever UCS selects a node n for expansion, the optimal path to that node has been found. If there exists a better path to node n, it must have passed through some other frontier node n' before reaching node n. By definition, node n' would have lower g-cost than n and would have been selected first. Therefore, if UCS selects n for expansion, it has evaluated and discarded any potential paths to n that are not optimal. 
 
 **Completeness:**
 UCS does not care about the number of steps  a path has, but only about their total cost. It will get stuck in an infinite loop if there is a path with an infinite sequence of zero cost actions. Completeness if guaranteed provided the cost of every step exceeds some small positive constant $\epsilon$.
@@ -61,3 +61,5 @@ perhaps useful steps.
  **Inefficiency with Uniform Costs:** While UCS excels in finding optimal solutions when step costs vary, it can be inefficient in scenarios where all step costs are uniform. In such cases, other search algorithms like Breadth First Search may perform better.
 
  **Lack of Heuristic Information:** UCS does not utilize any heuristic information about the problem domain. While this ensures optimality, it may lead to suboptimal performance in domains where heuristic information can guide the search more efficiently, such as in informed search algorithms like A*.
+
+

@@ -43,7 +43,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": "Uniform cost search terminates when the goal node is selected for expansion, or when the frontier is empty. Check the algorithm section in the theory for more details."
+        "d": "Uniform cost search terminates when the goal node is selected for expansion, or when the frontier is empty. Check the algorithm section in the theory section for more details."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -57,10 +57,10 @@
         "d": "UCS prioritizes paths with the lowest heuristic values, resulting in faster navigation."
       },
       "explanations": {
-        "a": "",
+        "a": "UCS requires edge costs to be non-negative.",
         "b": "",
-        "c": "",
-        "d": ""
+        "c": "UCS prioritizes paths based on their cumulative costs, not the number of steps.",
+        "d": "UCS doesn't use heuristics to guide the search."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -71,13 +71,13 @@
         "a": "It is always complete.",
         "b": "It is always optimal.",
         "c": "It is never complete nor optimal.",
-        "d": "If the path costs are positive, it is complete and optimal."
+        "d": "If the step costs are positive, it is complete and optimal."
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "Check Reference 1 for the proof."
+        "a": "UCS is only complete if step costs are positive.",
+        "b": "UCS is only optimal if step costs are non-negative",
+        "c": "UCS is complete and optimal if step costs are positive.",
+        "d": ""
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
@@ -91,10 +91,10 @@
         "d": "When the cost of the optimal solution is high"
       },
       "explanations": {
-        "a": "",
+        "a": "UCS is designed to handle varying edge costs efficiently by exploring paths based on their cumulative costs.",
         "b": "If all the edge costs are the same, then other algorithms like breadth first search perform better than uniform cost search. Check time and space complexity section in the theory section",
-        "c": "",
-        "d": ""
+        "c": "The efficiency of UCS is not determined by the cost of the optimal solution.",
+        "d": "The efficiency of UCS is not determined by the cost of the optimal solution."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
