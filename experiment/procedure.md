@@ -1,6 +1,8 @@
 ## Step 1:
-In practice section, create a graph, or use the preset tree and select the start vertex and end vertex.
+In the demo section, choose any of the three graphs to visualize the algorithm. In practice section, create a graph, or use the preset graph. Select the start vertex and end vertex.
+- **Start Vertex:** Initial state for the beginning of the algorithm.
+- **End Vertex:** Goal state, reaching which the algorithm will stop.
 ## Step 2:
-Start the uniform cost search algorithm and type the answer in the question tab when it stops. It will automatically proceed if the answer is correct.
+Click on the Start UCS button to begin the experiment.
 ## Step 3:
-After all the connected nodes have turned black or the goal node is reached, you have reached the end. You can start again with different parameters.
+View the central canvas and changes as you keep clicking the Next button. View the instructions section for details about the different controls. View the Information and Path History sections for details about the algorithm.

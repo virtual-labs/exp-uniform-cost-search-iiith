@@ -1,4 +1,4 @@
-To understand how Uniform Cost Search algorithm works.
+The aim is to demonstrate Uniform Cost Search algorithm on a simple graph setting. The experiment provides a step-by-step understanding of the UCS algorithm, and how it can be used to find the shortest path between two nodes.
 
 ## Objectives
 - **Understand the Uniform Cost Search algorithm and explore the cost functions:** Learn the working principles of Uniform Cost Search algorithm and the role of the cost function in guiding the search process.
