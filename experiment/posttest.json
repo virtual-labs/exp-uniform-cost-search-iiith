@@ -45,22 +45,22 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Assuming that all the edge costs are equal, what will be the time complexity of UCS?",
+      "question": "Given the following graph, if Uniform-Cost Search is used to find the shortest path from A to E, what will the total cost of the shortest path be? (Graph: A -> B = 3, A -> C = 4, B -> D = 2, C -> D = 5, D -> E = 1, C -> E = 4)",
       "answers": {
-        "a": "O(b^(d+1))",
-        "b": "O(b^d)",
-        "c": "O(b^d + 1)",
-        "d": "O(bd)"
+        "a": "12",
+        "b": "10",
+        "c": "8",
+        "d": "6"
       },
       "explanations": {
-        "a": "Check space and time complexity section of theory",
-        "b": "Check space and time complexity section of theory",
-        "c": "Check space and time complexity section of theory",
-        "d": "Check space and time complexity section of theory"
+        "a": "This is incorrect.",
+        "b": "This is incorrect. The path A -> C -> D -> E has a total cost of 4 + 5 + 1 = 10.",
+        "c": "This is incorrect. The path A -> C -> E is not optimal, as its cost is 4 + 4 = 8.",
+        "d": "This is correct. The shortest path is A -> B -> D -> E with a cost of 3 + 2 + 1 = 6."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "advanced"
-    },
+    }
     {
       "question": "Consider the following graph. A -> B (cost 1), A -> C (cost 2), B -> D (cost 3), C -> D (cost 1). What is the path that UCS will return?",
       "answers": {
