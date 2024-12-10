@@ -10,10 +10,10 @@
         "d": "Hash Table"
       },
       "explanations": {
-        "a": "",
-        "b": "",
+        "a": "Nodes need to be expanded in order of their cost, so a stack is not suitable.",
+        "b": "Nodes need to be expanded in order of their cost, so a linked list is not suitable.",
         "c": "Nodes are expanded in order of their cost (g values), so a priority queue is used to store the nodes.",
-        "d": ""
+        "d": "Nodes need to be expanded in order of their cost, so a hash table is not suitable."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -40,7 +40,7 @@
         "d": "Both b and c."
       },
       "explanations": {
-        "a": "",
+        "a": "This is incorrect as there could still be other paths to explore.",
         "b": "",
         "c": "",
         "d": "Uniform cost search terminates when the goal node is selected for expansion, or when the frontier is empty. Check the algorithm section in the theory section for more details."
@@ -58,7 +58,7 @@
       },
       "explanations": {
         "a": "UCS requires edge costs to be non-negative.",
-        "b": "",
+        "b": "UCS is designed to explore paths based on their cumulative costs, ensuring the shortest path is found first.",
         "c": "UCS prioritizes paths based on their cumulative costs, not the number of steps.",
         "d": "UCS doesn't use heuristics to guide the search."
       },
