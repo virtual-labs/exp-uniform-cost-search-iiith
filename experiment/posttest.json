@@ -60,7 +60,7 @@
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
-    }
+    },
     {
       "question": "Consider the following graph. A -> B (cost 1), A -> C (cost 2), B -> D (cost 3), C -> D (cost 1). What is the path that UCS will return?",
       "answers": {
