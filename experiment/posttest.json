@@ -2,38 +2,81 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In this implementation of the algorithm, can there be multiple path cost values for the same node in the frontier?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "yes",
+        "b": "no"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "It is possible for the same node to be reached by multiple paths, each with a different path cost. Since we are not replacing nodes with lower path costs, but adding them to the frontier, there can be multiple path cost values for the same node.",
+        "b": "Since we are not replacing nodes with lower path costs, but adding them to the frontier, there can be multiple path cost values for the same node."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What happens if UCS does not keep track of visited nodes?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It will always find the optimal solution",
+        "b": "It may revisit nodes and potentially enter into an infinite loop.",
+        "c": "It will only explore nodes with the highest cost.",
+        "d": "It will have a time complexity of O(b^d)."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Let two node A and B have the shortest edge cost. Then UCS will keep visiting A and B from each other and will not find the optimal solution.",
+        "b": "Let two node A and B have the shortest edge cost. Then UCS will keep visiting A and B from each other and this will result in an infinite loop.",
+        "c": "UCS will still explore based on lowest path cost.",
+        "d": "Whether or not UCS keeps track of visited nodes doesn't directly determine its time complexity."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Let's say that node n is in the frontier with value v. Is v guaranteed to be the shortest path from the start node to n?",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "explanations": {
+        "a": "Another path could be found with a smaller v value than the one in the frontier.",
+        "b": "Another path could be found with a smaller v value than the one in the frontier."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Given the following graph, if Uniform-Cost Search is used to find the shortest path from A to E, what will the total cost of the shortest path be? (Graph: A -> B = 3, A -> C = 4, B -> D = 2, C -> D = 5, D -> E = 1, C -> E = 4)",
+      "answers": {
+        "a": "12",
+        "b": "10",
+        "c": "8",
+        "d": "6"
+      },
+      "explanations": {
+        "a": "This is incorrect.",
+        "b": "This is incorrect. The path A -> C -> D -> E has a total cost of 4 + 5 + 1 = 10.",
+        "c": "This is incorrect. The path A -> C -> E is not optimal, as its cost is 4 + 4 = 8.",
+        "d": "This is correct. The shortest path is A -> B -> D -> E with a cost of 3 + 2 + 1 = 6."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Consider the following graph. A -> B (cost 1), A -> C (cost 2), B -> D (cost 3), C -> D (cost 1). What is the path that UCS will return?",
+      "answers": {
+        "a": "A -> B -> D",
+        "b": "A -> B -> C -> D",
+        "c": "A -> C -> B -> D",
+        "d": "A -> C -> D"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "The paths will be A->B, A->C, A->C->D"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
     }
   ]
 }
