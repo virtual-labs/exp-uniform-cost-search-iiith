@@ -1,0 +1,299 @@
+
+/home/runner/work/exp-uniform-cost-search-iiith/exp-uniform-cost-search-iiith/experiment/simulation/js/data.js
+    1:1   warning  'cwidth' is not defined                      no-undef
+    1:10  warning  'canv' is not defined                        no-undef
+    2:1   warning  'cheight' is not defined                     no-undef
+    2:11  warning  'canv' is not defined                        no-undef
+    6:5   warning  'graphs' is assigned a value but never used  no-unused-vars
+    8:9   warning  'cwidth' is not defined                      no-undef
+    8:18  warning  'canv' is not defined                        no-undef
+    9:9   warning  'cheight' is not defined                     no-undef
+    9:19  warning  'canv' is not defined                        no-undef
+   13:9   warning  'cities' is not defined                      no-undef
+   14:26  warning  'cwidth' is not defined                      no-undef
+   14:46  warning  'cheight' is not defined                     no-undef
+   15:26  warning  'cwidth' is not defined                      no-undef
+   15:46  warning  'cheight' is not defined                     no-undef
+   16:26  warning  'cwidth' is not defined                      no-undef
+   16:46  warning  'cheight' is not defined                     no-undef
+   17:26  warning  'cwidth' is not defined                      no-undef
+   17:46  warning  'cheight' is not defined                     no-undef
+   18:26  warning  'cwidth' is not defined                      no-undef
+   18:45  warning  'cheight' is not defined                     no-undef
+   21:9   warning  'citiesGraph' is not defined                 no-undef
+   29:29  warning  'cities' is not defined                      no-undef
+   30:13  warning  'nodes' is not defined                       no-undef
+   30:24  warning  'cities' is not defined                      no-undef
+   31:13  warning  'edges' is not defined                       no-undef
+   34:18  warning  'i' is already defined                       no-redeclare
+   34:29  warning  'citiesGraph' is not defined                 no-undef
+   35:13  warning  'edges' is not defined                       no-undef
+   35:19  warning  'citiesGraph' is not defined                 no-undef
+   35:44  warning  'citiesGraph' is not defined                 no-undef
+   35:63  warning  'citiesGraph' is not defined                 no-undef
+   36:13  warning  'edges' is not defined                       no-undef
+   36:19  warning  'citiesGraph' is not defined                 no-undef
+   36:44  warning  'citiesGraph' is not defined                 no-undef
+   36:63  warning  'citiesGraph' is not defined                 no-undef
+   39:14  warning  'n' is not defined                           no-undef
+   39:21  warning  'n' is not defined                           no-undef
+   39:25  warning  'nodes' is not defined                       no-undef
+   39:39  warning  'n' is not defined                           no-undef
+   40:13  warning  'exist' is not defined                       no-undef
+   43:9   warning  'n' is not defined                           no-undef
+   47:9   warning  'cwidth' is not defined                      no-undef
+   47:18  warning  'canv' is not defined                        no-undef
+   48:9   warning  'cheight' is not defined                     no-undef
+   48:19  warning  'canv' is not defined                        no-undef
+   49:9   warning  'cities' is not defined                      no-undef
+   50:26  warning  'cwidth' is not defined                      no-undef
+   50:46  warning  'cheight' is not defined                     no-undef
+   51:26  warning  'cwidth' is not defined                      no-undef
+   51:46  warning  'cheight' is not defined                     no-undef
+   52:26  warning  'cwidth' is not defined                      no-undef
+   52:46  warning  'cheight' is not defined                     no-undef
+   53:26  warning  'cwidth' is not defined                      no-undef
+   53:46  warning  'cheight' is not defined                     no-undef
+   54:26  warning  'cwidth' is not defined                      no-undef
+   54:46  warning  'cheight' is not defined                     no-undef
+   55:26  warning  'cwidth' is not defined                      no-undef
+   55:46  warning  'cheight' is not defined                     no-undef
+   56:26  warning  'cwidth' is not defined                      no-undef
+   56:46  warning  'cheight' is not defined                     no-undef
+   57:26  warning  'cwidth' is not defined                      no-undef
+   57:46  warning  'cheight' is not defined                     no-undef
+   58:26  warning  'cwidth' is not defined                      no-undef
+   58:46  warning  'cheight' is not defined                     no-undef
+   61:9   warning  'citiesGraph' is not defined                 no-undef
+   83:29  warning  'cities' is not defined                      no-undef
+   84:13  warning  'nodes' is not defined                       no-undef
+   84:24  warning  'cities' is not defined                      no-undef
+   85:13  warning  'edges' is not defined                       no-undef
+   88:18  warning  'i' is already defined                       no-redeclare
+   88:29  warning  'citiesGraph' is not defined                 no-undef
+   89:13  warning  'edges' is not defined                       no-undef
+   89:19  warning  'citiesGraph' is not defined                 no-undef
+   89:44  warning  'citiesGraph' is not defined                 no-undef
+   89:63  warning  'citiesGraph' is not defined                 no-undef
+   90:13  warning  'edges' is not defined                       no-undef
+   90:19  warning  'citiesGraph' is not defined                 no-undef
+   90:44  warning  'citiesGraph' is not defined                 no-undef
+   90:63  warning  'citiesGraph' is not defined                 no-undef
+   93:14  warning  'n' is not defined                           no-undef
+   93:21  warning  'n' is not defined                           no-undef
+   93:25  warning  'nodes' is not defined                       no-undef
+   93:39  warning  'n' is not defined                           no-undef
+   94:13  warning  'exist' is not defined                       no-undef
+  108:9   warning  'n' is not defined                           no-undef
+  112:9   warning  'cities' is not defined                      no-undef
+  113:24  warning  'cwidth' is not defined                      no-undef
+  113:42  warning  'cheight' is not defined                     no-undef
+  114:24  warning  'cwidth' is not defined                      no-undef
+  114:41  warning  'cheight' is not defined                     no-undef
+  115:24  warning  'cwidth' is not defined                      no-undef
+  115:42  warning  'cheight' is not defined                     no-undef
+  116:24  warning  'cwidth' is not defined                      no-undef
+  116:42  warning  'cheight' is not defined                     no-undef
+  117:24  warning  'cwidth' is not defined                      no-undef
+  117:42  warning  'cheight' is not defined                     no-undef
+  118:24  warning  'cwidth' is not defined                      no-undef
+  118:42  warning  'cheight' is not defined                     no-undef
+  119:24  warning  'cwidth' is not defined                      no-undef
+  119:42  warning  'cheight' is not defined                     no-undef
+  122:9   warning  'citiesGraph' is not defined                 no-undef
+  136:29  warning  'cities' is not defined                      no-undef
+  137:13  warning  'nodes' is not defined                       no-undef
+  137:24  warning  'cities' is not defined                      no-undef
+  138:13  warning  'edges' is not defined                       no-undef
+  141:18  warning  'i' is already defined                       no-redeclare
+  141:29  warning  'citiesGraph' is not defined                 no-undef
+  142:13  warning  'edges' is not defined                       no-undef
+  142:19  warning  'citiesGraph' is not defined                 no-undef
+  142:44  warning  'citiesGraph' is not defined                 no-undef
+  142:63  warning  'citiesGraph' is not defined                 no-undef
+  143:13  warning  'edges' is not defined                       no-undef
+  143:19  warning  'citiesGraph' is not defined                 no-undef
+  143:44  warning  'citiesGraph' is not defined                 no-undef
+  143:63  warning  'citiesGraph' is not defined                 no-undef
+  146:14  warning  'n' is not defined                           no-undef
+  146:21  warning  'n' is not defined                           no-undef
+  146:25  warning  'nodes' is not defined                       no-undef
+  146:39  warning  'n' is not defined                           no-undef
+  147:13  warning  'exist' is not defined                       no-undef
+  150:9   warning  'n' is not defined                           no-undef
+
+/home/runner/work/exp-uniform-cost-search-iiith/exp-uniform-cost-search-iiith/experiment/simulation/js/delta_refresh.js
+   4:6    warning  'canv' is not defined                 no-undef
+   4:20   warning  'canv' is not defined                 no-undef
+   4:40   warning  'canv' is not defined                 no-undef
+   4:55   warning  'canv' is not defined                 no-undef
+   5:3    warning  'canv' is not defined                 no-undef
+   5:16   warning  'canv' is not defined                 no-undef
+   6:3    warning  'canv' is not defined                 no-undef
+   6:17   warning  'canv' is not defined                 no-undef
+   7:3    warning  'preset' is not defined               no-undef
+  13:5    warning  'drawField' is not defined            no-undef
+  15:15   warning  'exist' is not defined                no-undef
+  18:112  warning  'exist' is not defined                no-undef
+  25:15   warning  'exist' is not defined                no-undef
+  28:112  warning  'exist' is not defined                no-undef
+  52:66   warning  'visit' is not defined                no-undef
+  54:9    warning  'visited' is not defined              no-undef
+  55:19   warning  'visited' is not defined              no-undef
+  55:27   warning  'visited' is not defined              no-undef
+  59:13   warning  'visiting_string' is already defined  no-redeclare
+  68:57   warning  'visit' is not defined                no-undef
+  68:71   warning  'visit' is not defined                no-undef
+  69:23   warning  'path' is not defined                 no-undef
+  70:55   warning  'path' is not defined                 no-undef
+  78:13   warning  'started' is not defined              no-undef
+  79:13   warning  'nuxtdis' is not defined              no-undef
+  83:17   warning  'refreshIntervalId' is not defined    no-undef
+  83:49   warning  'UCS' is not defined                  no-undef
+  83:63   warning  'input' is not defined                no-undef
+  88:16   warning  'refreshIntervalId' is not defined    no-undef
+  89:23   warning  'refreshIntervalId' is not defined    no-undef
+  90:9    warning  'nuxtdis' is not defined              no-undef
+  96:9    warning  'isQuestion' is not defined           no-undef
+
+/home/runner/work/exp-uniform-cost-search-iiith/exp-uniform-cost-search-iiith/experiment/simulation/js/graph.js
+    7:11  warning  'canvas' is not defined                            no-undef
+    8:7   warning  'input' is assigned a value but never used         no-unused-vars
+   12:5   warning  'type' is assigned a value but never used          no-unused-vars
+   19:5   warning  'path_edges' is assigned a value but never used    no-unused-vars
+   20:5   warning  'parent' is assigned a value but never used        no-unused-vars
+   21:5   warning  'costSoFar' is assigned a value but never used     no-unused-vars
+   26:5   warning  'visited_edge' is assigned a value but never used  no-unused-vars
+   28:5   warning  'isWeigted' is assigned a value but never used     no-unused-vars
+   29:5   warning  'edgeAdded' is assigned a value but never used     no-unused-vars
+   32:5   warning  'SN' is assigned a value but never used            no-unused-vars
+   93:9   warning  'y' is not defined                                 no-undef
+   94:9   warning  'v' is not defined                                 no-undef
+   94:21  warning  'y' is not defined                                 no-undef
+   95:9   warning  'v' is not defined                                 no-undef
+   97:24  warning  'y' is not defined                                 no-undef
+  102:7   warning  'v' is not defined                                 no-undef
+  107:20  warning  'v' is not defined                                 no-undef
+  109:62  warning  '_' is defined but never used                      no-unused-vars
+  109:83  warning  'v' is not defined                                 no-undef
+  119:39  warning  'v' is not defined                                 no-undef
+  120:27  warning  'v' is not defined                                 no-undef
+  122:27  warning  Empty block statement                              no-empty
+  131:63  warning  '_' is defined but never used                      no-unused-vars
+  131:84  warning  'v' is not defined                                 no-undef
+  132:23  warning  'v' is not defined                                 no-undef
+  132:34  warning  'v' is not defined                                 no-undef
+  132:57  warning  '_' is defined but never used                      no-unused-vars
+  149:18  warning  'e' is defined but never used                      no-unused-vars
+  198:5   warning  'started' is not defined                           no-undef
+  199:5   warning  'curr' is not defined                              no-undef
+  200:5   warning  'e' is not defined                                 no-undef
+  201:5   warning  'ep' is not defined                                no-undef
+  202:5   warning  'visit' is not defined                             no-undef
+  203:5   warning  'weight' is not defined                            no-undef
+  209:5   warning  'started' is not defined                           no-undef
+  210:5   warning  'isQuestion' is not defined                        no-undef
+  211:5   warning  'isObservation' is not defined                     no-undef
+  212:5   warning  'EndVect' is not defined                           no-undef
+  213:5   warning  'noEdges' is not defined                           no-undef
+  214:5   warning  'oneshotAuto' is not defined                       no-undef
+  215:9   warning  'refreshIntervalId' is not defined                 no-undef
+  215:50  warning  'refreshIntervalId' is not defined                 no-undef
+  216:5   warning  'refreshIntervalId' is not defined                 no-undef
+  221:9   warning  'NoQuestion' is not defined                        no-undef
+  250:7   warning  'px' is already defined                            no-redeclare
+  251:7   warning  'py' is already defined                            no-redeclare
+  280:10  warning  'drawField' is defined but never used              no-unused-vars
+  310:14  warning  'i' is already defined                             no-redeclare
+  319:22  warning  'k' is already defined                             no-redeclare
+  319:33  warning  'visit' is not defined                             no-undef
+  321:21  warning  'visit' is not defined                             no-undef
+  333:22  warning  'curr' is not defined                              no-undef
+  333:77  warning  'curr' is not defined                              no-undef
+  343:22  warning  'k' is already defined                             no-redeclare
+  344:45  warning  'curr' is not defined                              no-undef
+  351:22  warning  'curr' is not defined                              no-undef
+  385:9   warning  'used' is not defined                              no-undef
+  387:9   warning  'used' is not defined                              no-undef
+  390:5   warning  'used' is not defined                              no-undef
+  397:30  warning  'used' is not defined                              no-undef
+  398:17  warning  'used' is not defined                              no-undef
+  420:10  warning  'force' is defined but never used                  no-unused-vars
+  432:14  warning  'i' is already defined                             no-redeclare
+  434:22  warning  'j' is already defined                             no-redeclare
+  448:14  warning  'i' is already defined                             no-redeclare
+  456:14  warning  'i' is already defined                             no-redeclare
+
+/home/runner/work/exp-uniform-cost-search-iiith/exp-uniform-cost-search-iiith/experiment/simulation/js/main.js
+    4:5   warning  'nuxtdis' is assigned a value but never used        no-unused-vars
+    7:5   warning  'isObservation' is assigned a value but never used  no-unused-vars
+    9:17  warning  'PriorityQueue' is not defined                      no-undef
+   10:5   warning  'explored' is assigned a value but never used       no-unused-vars
+   12:5   warning  'SN' is assigned a value but never used             no-unused-vars
+   22:36  warning  'edges' is not defined                              no-undef
+   38:5   warning  'path_data' is not defined                          no-undef
+   39:5   warning  'path' is not defined                               no-undef
+   39:12  warning  'path_data' is not defined                          no-undef
+   40:5   warning  'path_edges' is not defined                         no-undef
+   40:18  warning  'path_data' is not defined                          no-undef
+   46:9   warning  'NoQuestion' is not defined                         no-undef
+   47:9   warning  'addEventListeners' is not defined                  no-undef
+   53:10  warning  'UCS' is defined but never used                     no-unused-vars
+   55:9   warning  'edgeAdded' is not defined                          no-undef
+   56:8   warning  'isQuestion' is not defined                         no-undef
+   60:14  warning  'exist' is not defined                              no-undef
+   60:25  warning  'visited' is not defined                            no-undef
+   65:9   warning  'path_data' is not defined                          no-undef
+   66:9   warning  'path' is not defined                               no-undef
+   66:16  warning  'path_data' is not defined                          no-undef
+   67:9   warning  'path_edges' is not defined                         no-undef
+   67:22  warning  'path_data' is not defined                          no-undef
+   68:27  warning  'path' is not defined                               no-undef
+   69:33  warning  'path_edges' is not defined                         no-undef
+   86:9   warning  'trav_circle' is not defined                        no-undef
+   87:9   warning  'visited' is not defined                            no-undef
+   94:14  warning  'NoQuestion' is not defined                         no-undef
+   97:24  warning  'chance' is not defined                             no-undef
+   98:17  warning  'isQuestion' is not defined                         no-undef
+   99:17  warning  'question' is not defined                           no-undef
+  103:13  warning  'edges' is not defined                              no-undef
+  107:33  warning  'edges' is not defined                              no-undef
+  110:17  warning  'exist' is not defined                              no-undef
+  112:17  warning  'visited' is not defined                            no-undef
+  112:70  warning  'costSoFar' is not defined                          no-undef
+  112:94  warning  'costSoFar' is not defined                          no-undef
+  113:17  warning  'costSoFar' is not defined                          no-undef
+
+/home/runner/work/exp-uniform-cost-search-iiith/exp-uniform-cost-search-iiith/experiment/simulation/js/mvcircle.js
+  25:7    warning  'ctx' is not defined                     no-undef
+  25:23   warning  'edgeD' is not defined                   no-undef
+  26:7    warning  'ctx' is not defined                     no-undef
+  27:7    warning  'ctx' is not defined                     no-undef
+  28:7    warning  'ctx' is not defined                     no-undef
+  28:137  warning  'nodeR' is not defined                   no-undef
+  29:7    warning  'ctx' is not defined                     no-undef
+  35:16   warning  'nuxtdis' is not defined                 no-undef
+  39:12   warning  'trav_circle' is defined but never used  no-unused-vars
+  45:14   warning  'nodes' is not defined                   no-undef
+  46:12   warning  'nodes' is not defined                   no-undef
+  47:14   warning  'nodes' is not defined                   no-undef
+  48:12   warning  'nodes' is not defined                   no-undef
+
+/home/runner/work/exp-uniform-cost-search-iiith/exp-uniform-cost-search-iiith/experiment/simulation/js/preset.js
+   5:8   warning  'NoQuestion' is not defined  no-undef
+   7:29  warning  'graphs' is not defined      no-undef
+  14:5   warning  'cclear' is not defined      no-undef
+  15:5   warning  'graphs' is not defined      no-undef
+
+/home/runner/work/exp-uniform-cost-search-iiith/exp-uniform-cost-search-iiith/experiment/simulation/js/priority_queue.js
+  1:7  warning  'PriorityQueue' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-uniform-cost-search-iiith/exp-uniform-cost-search-iiith/experiment/simulation/js/question.js
+   2:5   warning  'isQuestion' is assigned a value but never used  no-unused-vars
+   4:5   warning  'NoQuestion' is assigned a value but never used  no-unused-vars
+   5:5   warning  'chance' is assigned a value but never used      no-unused-vars
+  22:10  warning  'question' is defined but never used             no-unused-vars
+  27:10  warning  'submit' is defined but never used               no-unused-vars
+
+✖ 280 problems (0 errors, 280 warnings)
+
