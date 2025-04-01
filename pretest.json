@@ -1,0 +1,103 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What kind of data structure does uniform cost search use?",
+      "answers": {
+        "a": "Stack",
+        "b": "Linked List",
+        "c": "Priority Queue",
+        "d": "Hash Table"
+      },
+      "explanations": {
+        "a": "Nodes need to be expanded in order of their cost, so a stack is not suitable.",
+        "b": "Nodes need to be expanded in order of their cost, so a linked list is not suitable.",
+        "c": "Nodes are expanded in order of their cost (g values), so a priority queue is used to store the nodes.",
+        "d": "Nodes need to be expanded in order of their cost, so a hash table is not suitable."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Is uniform cost search an informed or uninformed search algorithm?",
+      "answers": {
+        "a": "Informed",
+        "b": "Uninformed"
+      },
+      "explanations": {
+        "a": "",
+        "b": "Uniform cost search is an uninformed search algorithm because it does not use any information about the problem domain to guide the search."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "When does uniform cost search terminate?",
+      "answers": {
+        "a": "When the goal node is generated.",
+        "b": "When the goal node is selected for expansion.",
+        "c": "When the frontier is empty.",
+        "d": "Both b and c."
+      },
+      "explanations": {
+        "a": "This is incorrect as there could still be other paths to explore.",
+        "b": "",
+        "c": "",
+        "d": "Uniform cost search terminates when the goal node is selected for expansion, or when the frontier is empty. Check the algorithm section in the theory section for more details."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Consider a navigation system where UCS is used to find the shortest path between two locations. The graph representing the road network has varying edge costs corresponding to the distance between intersections. What advantage does UCS offer in this scenario compared to other search algorithms?",
+      "answers": {
+        "a": "UCS guarantees finding the shortest path regardless of edge costs.",
+        "b": "UCS efficiently explores paths based on their cumulative costs, ensuring the shortest path is found first.",
+        "c": "UCS always selects the path with the lowest number of steps, leading to shorter travel times.",
+        "d": "UCS prioritizes paths with the lowest heuristic values, resulting in faster navigation."
+      },
+      "explanations": {
+        "a": "UCS requires edge costs to be non-negative.",
+        "b": "UCS is designed to explore paths based on their cumulative costs, ensuring the shortest path is found first.",
+        "c": "UCS prioritizes paths based on their cumulative costs, not the number of steps.",
+        "d": "UCS doesn't use heuristics to guide the search."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is true about uniform cost search?",
+      "answers": {
+        "a": "It is always complete.",
+        "b": "It is always optimal.",
+        "c": "It is never complete nor optimal.",
+        "d": "If the step costs are positive, it is complete and optimal."
+      },
+      "explanations": {
+        "a": "UCS is only complete if step costs are positive.",
+        "b": "UCS is only optimal if step costs are non-negative",
+        "c": "UCS is complete and optimal if step costs are positive.",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "When is uniform cost search inefficient?",
+      "answers": {
+        "a": "When the edge costs are not all the same",
+        "b": "When the edge costs are all the same",
+        "c": "When the cost of the optimal solution is low",
+        "d": "When the cost of the optimal solution is high"
+      },
+      "explanations": {
+        "a": "UCS is designed to handle varying edge costs efficiently by exploring paths based on their cumulative costs.",
+        "b": "If all the edge costs are the same, then other algorithms like breadth first search perform better than uniform cost search. Check time and space complexity section in the theory section",
+        "c": "The efficiency of UCS is not determined by the cost of the optimal solution.",
+        "d": "The efficiency of UCS is not determined by the cost of the optimal solution."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    }
+  ]
+}
