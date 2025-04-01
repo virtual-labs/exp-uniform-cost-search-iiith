@@ -1,7 +1,8 @@
 var correct_ans = 1;
 var isQuestion = false;
 
-var NoQuestion = true;
+// var NoQuestion = true;
+
 var chance = 0.5;
 
 var wrongSubmissions = 0;

@@ -12,6 +12,13 @@ var explored = [];
 var SN = null;
 var EN = null;
 
+const pageType = document.body.getAttribute('data-page');
+if (pageType === 'practice') {
+    NoQuestion = false; // Set NoQuestion to false for practice.html
+} else if (pageType === 'simulation') {
+    NoQuestion = true; // Set NoQuestion to true for simulation.html
+}
+
 function reconstructPath() {
     let path = [];
     let path_edges = [];
